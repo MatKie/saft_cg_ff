@@ -34,6 +34,6 @@ ff.add_crossint('C_M', 'Cl-', eps_mix=213.01)
 
 ff.add_crossint('Na+', 'Cl-', eps_mix=19.65)
 
-ff.write_forcefield(outfile='ffnonbonded_new.itp')
+ff.write_forcefield(outfile='ffnonbonded.itp')
 
 
