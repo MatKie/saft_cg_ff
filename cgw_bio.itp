@@ -1,0 +1,7 @@
+[ moleculetype ] 
+; name      nrexcl (nr exclusions)
+  W_BIO     1
+  
+[ atoms ]
+;nr    attype    resnr.    resname     atname    chrg.gr.    charge    mass
+ 1     w_bio     1         W           W         1           0

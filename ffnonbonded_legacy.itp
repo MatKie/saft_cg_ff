@@ -1,0 +1,29 @@
+; SAFT nonbonded params
+; Refs
+; 1. Lobanova
+; 2. This work
+;
+; name: name as in atomtypes.atp
+; at.num: number of protons
+; mass: duplicate to atomtypes.atp. Taken from there
+; charge: self-explanatory defined here and in [atoms]
+; pytpe: particle type Atom (A)
+; sigma in nm
+; eps in kJ/mol
+; func in nonbdon_params can only be one and has no speciel meaning 
+ 
+[ atomtypes ]
+;	name	        at.num	mass	 charge	ptype	V(C6)	       W(C_m)		Ref
+	w_ift_25	    18	    18.0154	 0.000	A	    1.435941e-02   1.208959e-03	;	1
+
+	Na+         	11      22.9898	 0.000	A	    2.741005e-04   1.140697e-05	;	2
+
+	Cl-	            17	    35.4530	 0.000	A	    8.755096e-03   1.147303e-03	;	2
+
+[ nonbond_params ]
+;	i	        j	    func	V(C6)	         W(C_m)
+	w_ift_25	Na+	    1	    1.118128e-02	 6.826004e-04   ;       2
+	w_ift_25	Cl-	    1	    3.000928e-03	 3.190831e-04   ;       2
+    Na+         Cl-     1       7.955864e-04     6.371772e-05   ;       2
+
+

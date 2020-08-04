@@ -1,0 +1,55 @@
+
+	w_bio   	    36	    26.0308	 0.000	A	    0.37467	 3.32580	;	1
+	Li+	            3       6.9410	 0.000	A	0.1520	0.09842	;	2
+	K+ 	            19	    39.0983	 0.000	A	0.2760	0.94057	;	2
+	Rb+	            37	    85.4678	 0.000	A	0.3040	1.29300	;   2
+	F-	            9       18.9984	 0.000	A	0.2660	0.19815	;	2
+	Br-	            35      79.9040	 0.000	A	0.3929	0.40245	;	2
+	I-	            53	    126.905	 0.000	A	0.4400	0.40548	;	2
+    HSO4-           97      97.0700  -1.000   A   0.4420  0.31478 ;   2
+[ moleculetype ]
+; molname	nrexcl
+Li 		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name	 cg nr	charge   mass
+1	    Li+	    1	    Li 		    Li 	     1	    1.0     6.941 
+[ moleculetype ]
+; molname	nrexcl
+K  		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name	 cg nr	charge   mass
+1	K+ 	1	K  		K  	 1	1.0      39.0983
+
+[ moleculetype ]
+; molname	nrexcl
+Rb 		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name	 cg nr	charge   mass
+1	Rb+	1	Rb 		Rb 	 1	1.0      85.4678
+
+[ moleculetype ]
+; molname	nrexcl
+F 		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name  cg nr	charge   mass
+1	F-	1	F 		F 	 1	-1.0     18.9984
+[ moleculetype ]
+; molname	nrexcl
+Br 		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name  cg nr	charge   mass
+1	Br-	1	Br 		Br 	 1	-1.0     79.904
+
+[ moleculetype ]
+; molname	nrexcl
+I 		1
+
+[ atoms ]
+; id	at type	res nr 	residu name	at name  cg nr	charge   mass
+1	I-	1	I 		I 	 1	-1.0     126.9045
+
