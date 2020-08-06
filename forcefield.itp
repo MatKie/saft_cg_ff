@@ -16,4 +16,4 @@
   1		    1		    no  		1.00  		1.00    
 
 #include "ffnonbonded.itp"
-
+#include "ffbonded.itp"
