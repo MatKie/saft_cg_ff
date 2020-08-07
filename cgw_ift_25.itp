@@ -4,4 +4,4 @@
   
 [ atoms ]
 ;nr    attype    resnr.    resname     atname    chrg.gr.    charge    mass
- 1     w_ift_25  1         SOL         W       1            0
+ 1     Wift25  1         SOL         W       1            0
