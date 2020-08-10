@@ -1,5 +1,9 @@
-   w_ift_25     18.0154 ; ift water model 25 celsius
-   w_bio        36.0308 ; bio water model 25-40 celsius
+   Wift25       18.0154 ; ift water model 25 celsius
+   Wbio        36.0308  ; bio water model 25-40 celsius
+   CT   43.087  ;     Terminal carbon
+   CM   42.079  ;     Middle carbon
+   SO4v6       96.06    ; Sulfate version 6
+   SO4v9       96.06    ; Sulfate version 9
    Li+   6.9410 ;     lithium cation
    Na+  22.9898 ;     sodium cation
    K+   39.0983 ;     potasium cation
