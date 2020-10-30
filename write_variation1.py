@@ -44,6 +44,8 @@ ff.add_crossint('SO4v6', 'CT', k=0.4)
 
 ff.add_crossint('SO4v9', 'Wift25', eps_mix=87.4734785037) 
 ff.add_crossint('SO4v9', 'Na+',  eps_mix=21.14)
+ff.add_crossint('SO4v9', 'CM', k=0.4)
+ff.add_crossint('SO4v9', 'CT', k=0.4)
 
 
 
