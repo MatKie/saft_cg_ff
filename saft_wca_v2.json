@@ -58,33 +58,15 @@
         }
     },
     "crossints": {
-        "CM:CT": {
-            "eps_mix": 345.72,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "CM:Cl-": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "CM:SO4v6": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
         "CM:SO4v9": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
         },
-        "CM:Wift25": {
-            "eps_mix": false,
-            "k": 0.34,
+        "CT:CM": {
+            "eps_mix": 345.72,
+            "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
@@ -100,17 +82,23 @@
             "sig_mix": false,
             "wca": true
         },
-        "CT:Wift25": {
+        "Cl-:CM": {
             "eps_mix": false,
-            "k": 0.31,
+            "k": 0.0,
             "sig_mix": false,
-            "wca": false
+            "wca": true
         },
         "Cl-:CT": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
+        },
+        "Cl-:Na+": {
+            "eps_mix": 19.65,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
         },
         "Cl-:Wift25": {
             "eps_mix": 217.65,
@@ -130,12 +118,6 @@
             "sig_mix": false,
             "wca": true
         },
-        "Na+:Cl-": {
-            "eps_mix": 19.65,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
         "Na+:SO4v6": {
             "eps_mix": 21.14,
             "k": 0.0,
@@ -154,13 +136,31 @@
             "sig_mix": false,
             "wca": false
         },
-        "SO4v6:Wift25": {
+        "SO4v6:CM": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
+        "Wift25:CM": {
+            "eps_mix": false,
+            "k": 0.34,
+            "sig_mix": false,
+            "wca": false
+        },
+        "Wift25:CT": {
+            "eps_mix": false,
+            "k": 0.31,
+            "sig_mix": false,
+            "wca": false
+        },
+        "Wift25:SO4v6": {
             "eps_mix": 222.734,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
-        "SO4v9:Wift25": {
+        "Wift25:SO4v9": {
             "eps_mix": 241.03,
             "k": 0.0,
             "sig_mix": false,
