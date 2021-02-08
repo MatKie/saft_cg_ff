@@ -66,23 +66,17 @@
         }
     },
     "crossints": {
+        "CM:Cl-": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
         "CM:Na+": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
-        },
-        "CM:SO4v9": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "CM:W": {
-            "eps_mix": false,
-            "k": 0.34,
-            "sig_mix": false,
-            "wca": false
         },
         "CT:CM": {
             "eps_mix": 345.72,
@@ -90,44 +84,20 @@
             "sig_mix": false,
             "wca": false
         },
+        "CT:Cl-": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
         "CT:Na+": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
         },
-        "CT:SO4v9": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "CT:W": {
-            "eps_mix": false,
-            "k": 0.31,
-            "sig_mix": false,
-            "wca": false
-        },
-        "Cl-:CM": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "Cl-:CT": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "Cl-:Na+": {
+        "Na+:Cl-": {
             "eps_mix": 19.65,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "Cl-:W": {
-            "eps_mix": 217.65,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
@@ -150,11 +120,17 @@
             "sig_mix": false,
             "wca": false
         },
-        "SO4v6:W": {
-            "eps_mix": 222.734,
+        "SO4v9:CM": {
+            "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
-            "wca": false
+            "wca": true
+        },
+        "SO4v9:CT": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
         },
         "SO4v9:Na+": {
             "eps_mix": 21.14,
@@ -164,6 +140,12 @@
         },
         "SO4v9:W": {
             "eps_mix": 241.03,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "SO4v9:W2": {
+            "eps_mix": 341.23241767,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
@@ -198,14 +180,32 @@
             "sig_mix": false,
             "wca": false
         },
-        "W2:SO4v9": {
-            "eps_mix": 341.23241767,
+        "W:CM": {
+            "eps_mix": false,
+            "k": 0.34,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W:CT": {
+            "eps_mix": false,
+            "k": 0.31,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W:Cl-": {
+            "eps_mix": 217.65,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
         "W:Na+": {
             "eps_mix": 200.52,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W:SO4v6": {
+            "eps_mix": 222.734,
             "k": 0.0,
             "sig_mix": false,
             "wca": false

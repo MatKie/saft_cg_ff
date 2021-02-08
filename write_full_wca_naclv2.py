@@ -60,4 +60,6 @@ ff.add_crossint('W2', 'SO4v9', eps_mix=341.23241767)
 ff.write_tables(shift=True, cutoff=2.0)
 ff.write_forcefield(outfile='ffnonbonded_wca_v2.itp')
 
-
+ff.add_cgw_ift(303.15, update=True)
+ff.write_forcefield(outfile='ffnonbonded_wca_v2_303K.itp')
+ff.add_cgw_ift(298.15, update=True)
