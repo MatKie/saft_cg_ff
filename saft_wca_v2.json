@@ -66,11 +66,11 @@
         }
     },
     "crossints": {
-        "CM:Cl-": {
-            "eps_mix": false,
+        "CM:CT": {
+            "eps_mix": 345.72,
             "k": 0.0,
             "sig_mix": false,
-            "wca": true
+            "wca": false
         },
         "CM:Na+": {
             "eps_mix": false,
@@ -78,35 +78,71 @@
             "sig_mix": false,
             "wca": true
         },
-        "CT:CM": {
-            "eps_mix": 345.72,
+        "CM:SO4v6": {
+            "eps_mix": false,
             "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
+        "CM:SO4v9": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
+        "CM:W2": {
+            "eps_mix": false,
+            "k": 0.33,
             "sig_mix": false,
             "wca": false
         },
-        "CT:Cl-": {
+        "CT:SO4v9": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
         },
-        "CT:Na+": {
+        "Cl-:CM": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
         },
-        "Na+:Cl-": {
+        "Cl-:CT": {
+            "eps_mix": false,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": true
+        },
+        "Cl-:Na+": {
             "eps_mix": 19.65,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
-        "SO4v6:CM": {
+        "Cl-:W2": {
+            "eps_mix": 23.6661799151,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "Na+:CT": {
             "eps_mix": false,
             "k": 0.0,
             "sig_mix": false,
             "wca": true
+        },
+        "Na+:SO4v6": {
+            "eps_mix": 21.14,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "Na+:SO4v9": {
+            "eps_mix": 21.14,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
         },
         "SO4v6:CT": {
             "eps_mix": false,
@@ -114,68 +150,26 @@
             "sig_mix": false,
             "wca": true
         },
-        "SO4v6:Na+": {
-            "eps_mix": 21.14,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "SO4v9:CM": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "SO4v9:CT": {
-            "eps_mix": false,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": true
-        },
-        "SO4v9:Na+": {
-            "eps_mix": 21.14,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "SO4v9:W": {
-            "eps_mix": 241.03,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "SO4v9:W2": {
-            "eps_mix": 341.23241767,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
-        "W2:CM": {
-            "eps_mix": false,
-            "k": 0.33,
-            "sig_mix": false,
-            "wca": false
-        },
         "W2:CT": {
             "eps_mix": false,
             "k": 0.32,
             "sig_mix": false,
             "wca": false
         },
-        "W2:Cl-": {
-            "eps_mix": 210.384356863,
-            "k": 0.0,
-            "sig_mix": false,
-            "wca": false
-        },
         "W2:Na+": {
-            "eps_mix": 195.578331625,
+            "eps_mix": 605.223253179,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
         },
         "W2:SO4v6": {
-            "eps_mix": 292.003438537,
+            "eps_mix": 126.644442036,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W2:SO4v9": {
+            "eps_mix": 175.625078068,
             "k": 0.0,
             "sig_mix": false,
             "wca": false
@@ -206,6 +200,12 @@
         },
         "W:SO4v6": {
             "eps_mix": 222.734,
+            "k": 0.0,
+            "sig_mix": false,
+            "wca": false
+        },
+        "W:SO4v9": {
+            "eps_mix": 241.03,
             "k": 0.0,
             "sig_mix": false,
             "wca": false

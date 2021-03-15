@@ -63,3 +63,10 @@ ff.write_forcefield(outfile='ffnonbonded_wca_v2.itp')
 ff.add_cgw_ift(303.15, update=True)
 ff.write_forcefield(outfile='ffnonbonded_wca_v2_303K.itp')
 ff.add_cgw_ift(298.15, update=True)
+
+ff.add_crossint('W2', 'Na+', eps_mix=605.223253179, update=True)  
+ff.add_crossint('W2', 'Cl-', eps_mix=23.6661799151, update=True)
+ff.add_crossint('W2', 'SO4v6', eps_mix=126.644442036, update=True)
+ff.add_crossint('W2', 'SO4v9', eps_mix=175.625078068, update=True) 
+ 
+ff.write_forcefield(outfile='ffnonbonded_wca_bio_v2.itp')
